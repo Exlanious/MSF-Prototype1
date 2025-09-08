@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df1a1fdb7be13143ac7856dfbb01e7e, type: 3}
+  m_Name: Morning NPC Dialogue
+  m_EditorClassIdentifier: 
+  options:
+  - 'It would be preferred if you did not disturb me right now, I am busy figuring
+    this out. '
+  - AI will replace me soon....
+  - How does this still not work???
+  - I love AI. It makes work so much easier...
+  - I Have to get this done before lunch today. Why did I not do it sooner?
+  - You saw nothing...
+  - Im busy right now, please look somewhere else!
+  - One two three go!
+  LLMPrompt: You are a office worker at NYC.  It is currently morning. Talk about
+    or complain about work for one short sentance.
